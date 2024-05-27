@@ -1,0 +1,14 @@
+[package]
+name = "crustd"
+version = "0.0.1"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "A set of traits and utilities for streamlining CRUD boilerplate with sqlx and axum"
+repository = "https://www.github.com/zenlex/crustd"
+
+[dependencies]
+async-trait = "0.1.80"
+axum = "0.7.5"
+serde = "1.0.203"
+sqlx = {version = "0.7.4", features=["postgres"]}
+validator = "0.18.1"
